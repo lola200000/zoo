@@ -44,8 +44,6 @@ class Zoo {
     /**
      * Demande de naissance pour l'animal d'index donné (s'il existe).
      * Affiche "un nouvel animal est né dans le Zoo" (géré par la classe Animal).
-     *
-     * @param int $index
      */
     public function naissanceParIndex(int $index): void {
         if (isset($this->animaux[$index])) {
