@@ -14,7 +14,7 @@ $zoo->livraison([
     new Zebre("Rayures")
 ]);
 
-// Création des visiteurs (tes 10 noms)
+
 $visiteurs = [
     new Visiteur("Loïc"),
     new Visiteur("Yannick"),
