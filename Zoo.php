@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-require_once DIR . '/Visiteur.php';
+require_once(__DIR__ .'/Visiteur.php');
 
 class Zoo {
    
