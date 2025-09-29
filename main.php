@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-require_once DIR . '/Animal.php';
-require_once DIR . '/Visiteur.php';
-require_once DIR . '/Zoo.php';
+require_once (__DIR__ . '/Animal.php');
+require_once(__DIR__ .'/Visiteur.php');
+require_once (__DIR__ . '/Zoo.php');
 
 // Création du zoo
 $zoo = new Zoo();
