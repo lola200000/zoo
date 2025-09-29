@@ -39,7 +39,7 @@ abstract class Animal {
 }
 
 
-// Classe Lion
+// 
 
 class Lion extends Animal {
     protected string $type = 'carnivore';
@@ -62,7 +62,7 @@ class Lion extends Animal {
 }
 
 
-// Classe Zèbre======
+// 
 class Zebre extends Animal {
     protected string $type = 'herbivore';
     protected string $espece = 'zèbre';
